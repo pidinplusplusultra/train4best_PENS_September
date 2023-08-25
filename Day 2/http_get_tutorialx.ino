@@ -25,7 +25,7 @@ void loop() {
   
     HTTPClient http;
   
-    http.begin("https://www.google.com/"); //Specify the URL
+    http.begin("https://api.kanye.rest/"); //Specify the URL
     int httpCode = http.GET();                                        //Make the request
   
     if (httpCode > 0) { //Check for the returning code
